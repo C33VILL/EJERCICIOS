@@ -1,5 +1,5 @@
 print ("16 EJERCICIOS")
-##CENTENO VILLAVICENCIO URIEL
+##CENTENO VILLAVICENCIO URIEL 🐧 IRD42
 print ("-------------numero1----------")
 palabras = ["python","java","python","c++"]
 veces={}

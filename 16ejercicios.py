@@ -72,31 +72,7 @@ for persona in personas:
 print (salida)
 
 print ('numero9')
-numeros = [5, 3, 8, 6, 2]
-def orden1(lista):
-    if len(lista) <= 1:
-        return lista
-    medio = len(lista) // 2
-    izquierda = orden1(lista[:medio])
-    derecha = orden1(lista[medio:])
-    return merge(izquierda, derecha)
-
-def merge(izquierda, derecha):
-    resultado = []
-    i = j = 0
-    while i < len(izquierda) and j < len(derecha):
-        if izquierda[i] < derecha[j]:
-            resultado.append(izquierda[i])
-            i += 1
-        else:
-            resultado.append(derecha[j])
-            j += 1
-    resultado.extend(izquierda[i:])
-    resultado.extend(derecha[j:])
-    return resultado
-
-acomodados = orden1(numeros)
-print(acomodados)
+#:(
 
 print ('numero--10')
 numeros=[1,2,3,4,5]

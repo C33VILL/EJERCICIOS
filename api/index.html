@@ -1,0 +1,10 @@
+
+{% extends 'movies/base.html' %}
+{% block title %}
+    PELICULAS
+{% endblock %}
+{% block content %}
+    <div id="root"></div>
+    {% load static %}
+    <script src="{% static 'js/movies.js' %}"></script>
+{% endblock %}
